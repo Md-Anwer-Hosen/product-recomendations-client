@@ -1,0 +1,56 @@
+[
+  {
+    "id": "b1",
+    "category": "Research",
+    "date": "Apr 28, 2024",
+    "title": "7 common mistakes everyone makes while traveling",
+    "excerpt": "Prospective students should start broadly and then narrow their list down to.",
+    "author": "Joan Wallace",
+    "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1400&q=80"
+  },
+  {
+    "id": "b2",
+    "category": "Lifestyle",
+    "date": "Jun 01, 2024",
+    "title": "Bad habits that people in the business industry need to quit",
+    "excerpt": "Prospective students should start broadly and then narrow their list down to.",
+    "author": "Louis Ferguson",
+    "image": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=1400&q=80"
+  },
+  {
+    "id": "b3",
+    "category": "Travel",
+    "date": "Jun 15, 2024",
+    "title": "Around the web: 20 fabulous info graphics about business",
+    "excerpt": "Prospective students should start broadly and then narrow their list down to.",
+    "author": "Frances Guerrero",
+    "image": "https://plus.unsplash.com/premium_photo-1769110817898-2a2b8c989823?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "b4",
+    "category": "Tech",
+    "date": "Jul 02, 2024",
+    "title": "How to choose a phone camera for YouTube indoor shooting",
+    "excerpt": "A simple checklist to compare sensors, stabilization, and low-light performance.",
+    "author": "A. Nur",
+    "image": "https://plus.unsplash.com/premium_photo-1769021898390-dee6df80f518?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "b5",
+    "category": "Productivity",
+    "date": "Jul 20, 2024",
+    "title": "A clean workflow for managing product recommendations",
+    "excerpt": "Use tags, reasons, and timestamps to keep recommendations useful and relevant.",
+    "author": "Nadia Rahman",
+    "image": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1400&q=80"
+  },
+  {
+    "id": "b6",
+    "category": "Design",
+    "date": "Aug 09, 2024",
+    "title": "Color contrast rules that make recruiters love your UI",
+    "excerpt": "A practical guide to spacing, alignment, and contrast for modern web apps.",
+    "author": "Sabbir Hossain",
+    "image": "https://images.unsplash.com/photo-1768321140160-a3ee91beb1c1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]
