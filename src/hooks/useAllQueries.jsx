@@ -2,12 +2,14 @@ import { useQuery } from "@tanstack/react-query";
 import React from "react";
 import useAxiosPublic from "./useAxiosPublic";
 
-const useAllQueries = () => {
+const useAllQueries = (search = "") => {
   const axiosPublic = useAxiosPublic();
   return useQuery({
-    queryKey: ["Queries"],
+    queryKey: ["Queries", search],
     queryFn: async () => {
-      const res = await axiosPublic.get("/queries");
+      const q = search.trim();
+      const url = q ? `/queries?search=${encodeURIComponent(q)}` : `/queries`;
+      const res = await axiosPublic.get(url);
       return res.data;
     },
   });

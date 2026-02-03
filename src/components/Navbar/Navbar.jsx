@@ -40,9 +40,9 @@ const Navbar = () => {
 
   const routesPrivate = [
     { to: "/addQueries", label: "Add Query" },
-    { to: "/recommendations-for-me", label: "Recommendations For Me" },
+    { to: "/recommendationForMe", label: "Recommendations For Me" },
     { to: "/myQueries", label: "My Queries" },
-    { to: "/my-recommendations", label: "My Recommendations" },
+    { to: "/myRecommendations", label: "My Recommendations" },
   ];
 
   const routes = user ? [...routesPublic, ...routesPrivate] : routesPublic;

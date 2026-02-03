@@ -8,6 +8,9 @@ import QueriesDetails from "../pages/QueriesDetails/QueriesDetails";
 import AddQueryForm from "../pages/AddQueryForm/AddQueryForm";
 import PrivetRoute from "./PrivetRoute";
 import MyQueries from "../pages/MyQueries/MyQueries";
+import UpdateQuery from "../pages/UpdateQuery/UpdateQuery";
+import MyRecommendations from "../pages/MyRecommendations/MyRecommendations";
+import RecommendationsForMe from "../pages/RecommendationsForMe/RecommendationsForMe";
 
 const router = createBrowserRouter([
   {
@@ -47,6 +50,27 @@ const router = createBrowserRouter([
         element: (
           <PrivetRoute>
             <MyQueries />
+          </PrivetRoute>
+        ),
+      },
+      {
+        path: "updateQuery/:id",
+        element: (
+          <PrivetRoute>
+            <UpdateQuery />
+          </PrivetRoute>
+        ),
+      },
+
+      {
+        path: "myRecommendations",
+        element: <MyRecommendations />,
+      },
+      {
+        path: "recommendationForMe",
+        element: (
+          <PrivetRoute>
+            <RecommendationsForMe />
           </PrivetRoute>
         ),
       },
