@@ -86,12 +86,14 @@ export default function QueriesDetails() {
         <div className="mt-4 text-sm font-semibold text-[#863efa] flex justify-between">
           <p> Recommendations: {query.recommendationCount}</p>
 
-          <button
-            onClick={() => setShowForm(!showForm)}
-            className="inline-flex items-center bg-green-400 hover:bg-green-500 gap-2 px-3 py-2 rounded-xl border border-slate-200 text-slate-700 transition text-sm font-semibold"
-          >
-            <FiEdit2 />
-          </button>
+          {user ? (
+            <button
+              onClick={() => setShowForm(!showForm)}
+              className="inline-flex items-center bg-green-400 hover:bg-green-500 gap-2 px-3 py-2 rounded-xl border border-slate-200 text-slate-700 transition text-sm font-semibold"
+            >
+              <FiEdit2 />
+            </button>
+          ) : null}
         </div>
       </div>
 

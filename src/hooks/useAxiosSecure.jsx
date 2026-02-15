@@ -3,7 +3,7 @@ import useAuth from "./useAuth";
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: "https://product-recomendations-server.onrender.com",
 });
 
 const useAxiosSecure = () => {
@@ -14,6 +14,7 @@ const useAxiosSecure = () => {
       async (config) => {
         if (user) {
           const token = await user.getIdToken();
+
           config.headers.Authorization = `Bearer ${token}`;
         }
         return config;

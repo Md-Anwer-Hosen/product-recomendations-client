@@ -12,7 +12,7 @@ import image4 from "../../assets/images/photo-1581934932994-e4ac37c0c882.avif";
 
 export default function Hero() {
   return (
-    <div className="h-[800px] max-w-11/12 mx-auto">
+    <div className=" h-48 sm:h-[400px] md:[h-600px] lg:h-[800px] max-w-11/12 mx-auto mt-5">
       <Swiper
         navigation
         modules={[Navigation]}
