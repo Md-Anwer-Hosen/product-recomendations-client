@@ -1,19 +1,80 @@
-# React + Vite
+# 🔵 CLIENT README (product-recommendations-client)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```markdown
+# 💡 Product Recommendations Client
 
-Currently, two official plugins are available:
+Frontend application for Product Recommendations platform.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Users can post product queries and receive recommendations from other users.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌐 Live Website
 
-## Expanding the ESLint configuration
+https://product-recomendations-client.vercel.app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# product-recomendations-client
-# product-recomendations-client
-# product-recomendations-client
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- React Router v6
+- TanStack Query
+- Axios
+- Firebase Authentication
+- Tailwind CSS
+- Vercel (Deployment)
+
+---
+
+## 🔐 Authentication
+
+- Firebase Email/Password Authentication
+- Google Login Support
+- Secure token-based API communication
+- Private route protection with redirect after login
+
+---
+
+## 📌 Features
+
+- Create product queries
+- View all queries
+- Add recommendations
+- View recommendations received
+- View recommendations given
+- Secure API communication
+- Automatic redirect after login
+- Protected routes
+
+---
+
+## ⚙️ Environment Variables
+
+Create `.env.local`:
+
+🧠 Architecture
+
+axiosSecure → attaches Firebase token
+
+axiosNormal → public API calls
+
+PrivateRoute → redirects to login and back
+
+React Query for server state management
+
+🚀 Deployment
+
+Deployed on:
+
+Frontend → Vercel
+
+Backend → Render
+
+Database → MongoDB Atlas
+```
+
+👨‍💻 Author
+
+Md Anwer Hosen
+Full-Stack Developer | CSE Student
